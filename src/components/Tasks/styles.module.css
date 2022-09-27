@@ -1,0 +1,72 @@
+.container {
+    height: 28.187rem;
+    width: 100%;
+    max-width: 46rem;
+    margin: 0 auto;
+
+    margin-top: 5.625rem;
+    padding: 0 1rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.header div{
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+}
+
+.header div  p {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--blue-100);
+}
+.header  p.textPurple {
+    color: var(--purple-100);
+}
+
+.header  span {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 999px;
+    padding: 3px 9px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.taskListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+}
+.empty {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem 1.5rem;
+    color: var(--gray-300);
+
+}
+
+.empty svg {
+    opacity: 0.3;
+
+}
+.empty p {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+.empty span {
+    font-size: 1rem;
+    text-align: center;
+}
